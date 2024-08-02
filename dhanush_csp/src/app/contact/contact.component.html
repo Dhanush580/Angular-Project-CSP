@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.component.css">
+</head>
+<body> 
+
+   
+
+        <!-- Replace with your Access Key -->
+
+    
+    <div class="container">
+        <h1 class="animate-text">Have Suggestions? Feel free to share them with us!!</h1>
+        <h1 class="animate-text dhanush">Contact Us</h1>
+        <p class="animate-text">We'd love to hear from you!</p>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="db7b6b76-bd17-40e2-a676-20e78cee9294">
+            <label for="name" class="animate-text">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email" class="animate-text">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message" class="animate-text">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="animate-button">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>

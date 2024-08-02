@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+<nav class="navbar">
+  <div class="nav-title">My Angular App</div> <!-- Added title here -->
+  <div class="nav-links">
+    <ul class="nav-links">
+      <li><a routerLink="/">HOME</a></li>
+      <li><a routerLink="/businesses">LOGIN</a></li>
+      <li><a routerLink="/contact">CONTACT US</a></li>
+      <li><a routerLink="/about">ABOUT US</a></li>
+      <li><a routerLink="/register">REGISTER</a></li> <!-- Added Register link -->
+      <li><a routerLink="/profile">PROFILE</a></li>
+    </ul>
+  </div>
+  
+
+<div class="backdrop" *ngIf="isMenuOpen" (click)="toggleMenu()"></div>
